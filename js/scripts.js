@@ -20,7 +20,7 @@ $(document).ready(function() {
   $("form#form").submit(function(event) {
     event.preventDefault();
     var userNumber = parseInt($("input#number").val());
-    var results = myFunction(userNumber);
-    $(#outcome).text(result);
+    var outcome = myFunction(userNumber);
+
   });
 });

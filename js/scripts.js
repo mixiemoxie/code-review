@@ -16,3 +16,11 @@ var myFunction = function(userNumber) {
 };
 
 // User interface logic. Gets the user input and runs that number through the business logic and displays each item in the array as a list item.
+$(document).ready(function() {
+  $("form#form").submit(function(event) {
+    event.preventDefault();
+    var userNumber = parseInt($(input#number).val();
+    var results = myFunction(userNumber);
+    $(#outcome).text(result);
+  });
+});

@@ -8,6 +8,29 @@
     <title>Code Review</title>
   </head>
   <body>
+    <div class="container">
 
+      <div class="jumbotron">
+        <h1>Enter a number</h1>
+        <p>When you enter a number it will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 2 will be multiplied by 2.</li>
+          <li>Numbers divisible by 3 will be multiplied by 3.</li>
+        </ol>
+
+        <form id="form">
+          <div class="form-group">
+          <label for="number">Enter your number:</label>
+          <input id="number" type="number">
+        </div>
+
+        <button id="submit" type="button" class="btn btn-success">Submit</button>
+      </form>
+      
+        <div id="outcome">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

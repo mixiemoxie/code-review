@@ -22,11 +22,11 @@ $(document).ready(function() {
     var userNumber = parseInt($("input#number").val());
     var outcome = myFunction(userNumber);
 
-    $("#outcome").append("<ul>");
-      outcome.forEach(function(singleResult)  {
-    $("#outcome").append("<li>" + singleResult + "</li");
+    // $("#outcome").append("<ul>");
+    outcome.forEach(function(singleResult)  {
+      $("#outcome").append("<li>" + singleResult + "</li");
     });
-    $("#outcome").append("</ul");
+    // $("#outcome").append("</ul");
 
       event.preventDefault();
   });
